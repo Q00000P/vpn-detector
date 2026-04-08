@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="#1a1a2e">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="VPN Detector" android:textSize="24sp" android:textColor="#ffffff"
+        android:textStyle="bold" android:gravity="center" android:paddingBottom="16dp"/>
+    <Button android:id="@+id/checkBtn" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Проверить VPN"
+        android:textSize="16sp" android:backgroundTint="#0f3460" android:textColor="#ffffff"
+        android:layout_marginBottom="16dp"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/resultText" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Нажми кнопку..."
+            android:textColor="#e0e0e0" android:textSize="14sp" android:fontFamily="monospace"
+            android:padding="12dp" android:background="#16213e"/>
+    </ScrollView>
+</LinearLayout>
